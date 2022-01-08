@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cube"
+version = "0.1.0"
+description = "Simple Rubik's cube simulator"
+authors = ["Noam Raphael"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+scipy = "^1.7.3"
+matplotlib = "^3.5.1"
+PyQt5 = "^5.15.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
